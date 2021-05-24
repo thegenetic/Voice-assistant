@@ -31,8 +31,11 @@ def wishme():
     elif hour >= 12 and hour < 18:
         speak(f"Good Afternoon sir, today is {d}")
 
-    else:
+    elif hour >=18 and hour <22:
         speak(f"Good Evening sir, today is {d}")
+
+    else:
+        speak(f"Good night sir, you should sleep by now")
 
     speak("Hello i am MENDES, assistant of DIPESH, how can I help you.. ")
 
